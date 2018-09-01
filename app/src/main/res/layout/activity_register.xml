@@ -51,6 +51,7 @@
                 android:layout_gravity="center"
                 android:paddingLeft="10dp"/>
             <custom_font.MyEditText
+                android:id="@+id/email"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -59,7 +60,7 @@
                 android:letterSpacing="0.1"
                 android:hint="Email Address"
                 android:textColor="#fff"
-
+                android:inputType="textEmailAddress"
                 android:textColorHint="#fff"
                 android:drawablePadding="10dp"
                 android:textSize="13dp"
@@ -82,6 +83,7 @@
                 android:layout_gravity="center"
                 android:paddingLeft="10dp"/>
             <custom_font.MyEditText
+                android:id="@+id/password"
                 android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -118,6 +120,7 @@
 
 
             <custom_font.MyEditText
+                android:id="@+id/password_confirm"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="#00000000"
@@ -132,7 +135,7 @@
                 />
         </LinearLayout>
         <custom_font.MyTextView
-            android:id="@+id/getstarted"
+            android:id="@+id/signup"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/round"

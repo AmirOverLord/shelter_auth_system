@@ -3,12 +3,13 @@ package custom_font;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
-import android.widget.TextView;
+//import android.widget.TextView;
+import android.support.v7.widget.AppCompatTextView;
 
 /**
  * Created by one on 3/12/15.
  */
-public class MyTextView extends TextView {
+public class MyTextView extends AppCompatTextView{
 
     public MyTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
